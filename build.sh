@@ -175,5 +175,5 @@ codesign --force --deep --sign - --identifier "$BUNDLE_ID" "$APP_DIR" 2>/dev/nul
 touch "$APP_DIR"
 
 echo "==> Successfully created: $APP_DIR"
-echo "==> Launching ${APP_NAME}..."
-open "$APP_DIR"
+# echo "==> Launching ${APP_NAME}..."
+# open "$APP_DIR"
